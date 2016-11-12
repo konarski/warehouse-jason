@@ -1,0 +1,13 @@
+MAS warehouse {
+
+	infrastructure: Centralised
+
+	environment: warehouse.WarehouseEnv
+
+	agents:
+		m master;
+		a1 worker;
+		
+	aslSourcePath:
+		"src/asl";
+}
